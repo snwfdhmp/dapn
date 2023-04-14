@@ -253,7 +253,7 @@ const unbindUser = (user) => {
 }
 
 const main = async () => {
-  program.parse(process.argv)
+  program.name("dapn").parse(process.argv)
 }
 
 main()
